@@ -12,7 +12,6 @@ function App() {
       background: '#0a0e17',
       minHeight: '100vh',
     }}>
-      {/* Tab bar */}
       <div style={{
         display: 'flex',
         borderBottom: '1px solid #21262d',
@@ -61,7 +60,6 @@ function App() {
 
       {tab === 'qsi' ? <QSISimulator /> : <CRBUSimulator />}
 
-      {/* Footer */}
       <div style={{
         padding: '16px 20px',
         borderTop: '1px solid #21262d',
